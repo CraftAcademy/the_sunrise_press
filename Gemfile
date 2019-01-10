@@ -24,6 +24,7 @@ group :development, :test do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'coveralls', require: false
 end
 
 group :development do
